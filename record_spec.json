@@ -1,0 +1,22 @@
+{
+  "course": "24CS2016 – Building Applications using Flutter",
+  "regno": "URK23CS5015",
+  "ex_no": "1",
+  "title": "Working with Widgets and Layouts",
+  "date": "",
+  "github_link": "",
+  "video_link": "",
+  "aim": "To design and develop a Flutter application that displays a list of fruit items using Row, Column, Container, Card, and ListView widgets, and to create reusable custom widgets to organize the user interface effectively.",
+  "description": "Flutter builds its user interface entirely out of widgets that can be composed together. Layout widgets such as Row and Column arrange their children horizontally and vertically, while Container adds padding, margin, decoration and sizing around a child widget. Card gives a widget a material elevation and rounded surface, and ListView efficiently lays out and scrolls a list of children, building only the items that are visible on screen (when used with ListView.builder).\n\nThis experiment implements a simple Fruit Shop application. A Fruit data model holds the name, an emoji icon, price per kilogram, a short description and an accent colour for each item. A reusable custom widget, FruitCard, composes a Card containing a Row with a Container used as a circular icon badge, a Column for the name and description (using Expanded so it fills the remaining width), and a rounded Container used as a price chip. The top-level screen, FruitListScreen, places a Container banner above a ListView.builder that renders one FruitCard per fruit in the list, demonstrating how layout widgets and custom reusable widgets combine to build a clean, maintainable UI.",
+  "code_files": [
+    { "path": "code/lib/models/fruit.dart", "label": "lib/models/fruit.dart" },
+    { "path": "code/lib/widgets/fruit_card.dart", "label": "lib/widgets/fruit_card.dart" },
+    { "path": "code/lib/screens/fruit_list_screen.dart", "label": "lib/screens/fruit_list_screen.dart" },
+    { "path": "code/lib/main.dart", "label": "lib/main.dart" }
+  ],
+  "screenshots": [
+    { "path": "screenshots/01_fruit_list.png", "caption": "Fig 1. Fruit list rendered with Card, Row, Column and Container widgets inside a ListView (mobile width)." },
+    { "path": "screenshots/02_fruit_list_wide.png", "caption": "Fig 2. Same ListView of FruitCard widgets rendered at a wider viewport." }
+  ],
+  "result": "The Flutter application was successfully designed and executed. A list of fruit items was displayed using Row, Column, Container, Card and ListView widgets, and a reusable custom widget (FruitCard) was created to organize the UI effectively. The output was verified in the browser as shown in the screenshots above."
+}
