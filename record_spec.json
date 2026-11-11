@@ -3,7 +3,7 @@
   "regno": "URK23CS5015",
   "ex_no": "1",
   "title": "Working with Widgets and Layouts",
-  "date": "",
+  "date": "30/07/2026",
   "github_link": "https://github.com/girishnp17/flutter-lab1-widgets-layouts",
   "video_link": "",
   "aim": "To design and develop a Flutter application that displays a list of fruit items using Row, Column, Container, Card, and ListView widgets, and to create reusable custom widgets to organize the user interface effectively.",
